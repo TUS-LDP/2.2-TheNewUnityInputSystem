@@ -22,6 +22,5 @@ public class InputsManager : MonoBehaviour
     private void OnMove(InputValue input)
     {
         this.movementDirection = input.Get<Vector2>();
-        Debug.Log("Moving vector: " + movementDirection.ToString()); ;
     }
 }
